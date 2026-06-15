@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  meeting-notes:
+    build: .
+    container_name: meeting-notes-mcp
+    ports:
+      - "3000:3000"
+    env_file:
+      - .env  
+    volumes:
+      - meeting-notes-data:/data
+    restart: unless-stopped
+
+volumes:
+  meeting-notes-data:
+    driver: local

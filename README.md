@@ -91,6 +91,8 @@ This MCP server provides a complete meeting notes management system with the fol
 
 Deploy the server as a Docker container — ideal for VPS or remote servers.
 
+📖 **For detailed deployment instructions (including CapRover), see [`DEPLOY.md`](DEPLOY.md).**
+
 #### Prerequisites
 
 - **Docker** & **Docker Compose** installed on your VPS
@@ -371,6 +373,7 @@ npm run test:watch
 │   ├── SPECS.md             # Project specification
 │   ├── TASK.md              # Development task tracker
 │   └── SETUP.md             # Client configuration guide
+├── captain-definition       # CapRover deployment config
 ├── .env.example             # Environment variable template
 ├── Dockerfile               # Docker image for VPS deployment
 ├── docker-compose.yml       # (Optional) Docker Compose setup

@@ -10,4 +10,5 @@ data/
 dist/
 coverage/
 *.md
+!README.md
 ai/
